@@ -1,0 +1,39 @@
+<div>
+<mat-toolbar class="mat-elevation-z8">
+  <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+    <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+  </button>
+  <img class="img" src="https://upeu.edu.pe/wp-content/uploads/2022/03/02.png" alt="">
+  <pre class="Estu">ESAU MORALES<br>CODIGO</pre>
+  <a routerLink="/login"><svg class="imgbol" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#D9D9D9" />
+  </svg></a>
+
+
+</mat-toolbar>
+</div>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+
+    <button mat-button class="menu-button">
+      <mat-icon>home</mat-icon>
+      <span>Home</span>
+    </button>
+    <br>
+    <button mat-button class="menu-button">
+      <mat-icon>person</mat-icon>
+      <span>Ejemplo</span>
+    </button>
+    <br>
+    <button mat-button class="menu-button">
+      <mat-icon>info</mat-icon>
+      <span>Ejemplo</span>
+    </button>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <mat-divider></mat-divider>
+
+
+    <a routerLink="/login" mat-button class="menu-button"> <mat-icon>undo</mat-icon>Salir</a>
+
+  </mat-sidenav>

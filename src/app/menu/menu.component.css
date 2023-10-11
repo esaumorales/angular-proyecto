@@ -1,0 +1,94 @@
+mat-toolbar {
+  background : #014277;
+  color      : white;
+  width      : 100vw;
+  height     : 6vw;
+  flex-shrink: 0;
+}
+
+mat-sidenav {
+  
+  width       : 180px;
+  border-right: none;
+  background  : #014277;
+  color       : white;
+  align-items : center;
+  padding     : 16px;
+  text-align  : center;
+}
+
+.content {
+  height       : calc(100vh - 98px);
+  border-radius: 10px;
+  margin       : 16px;
+  margin-left  : 32px;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+
+  font-size: 2rem;
+  color    : lightgray;
+}
+
+mat-sidenav-container {
+  height: calc(96.6vh - 65px);
+}
+
+.menu-button {
+  width          : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: flex-start;
+  font-size      : 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+
+
+
+mat-divider {
+  margin-top   : 16px;
+  margin-bottom: 16px;
+
+}
+
+.menu-button {
+  width          : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: flex-start;
+  font-size      : 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+
+
+
+
+mat-divider {
+  margin-top   : 16px;
+  margin-bottom: 16px;
+
+}
+
+img {
+  height     : 8vw;
+  width      : 15vw;
+  margin-left: 0vw;
+}
+
+pre {
+  margin-left: 940px;
+  color      : #FFF;
+  text-align : right;
+  font-family: 'Courier New', Courier, monospace;
+  font-size  : 1.25rem;
+  font-style : normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
